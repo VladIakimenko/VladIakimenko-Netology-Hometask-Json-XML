@@ -47,3 +47,4 @@ if __name__ == '__main__':
     # words = read_json(path='data/newsafr.json')
     words = read_xml(path='data/newsafr.xml')
     print(*find_words(words), sep='\n')
+    input()
